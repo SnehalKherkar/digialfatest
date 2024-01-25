@@ -1,0 +1,116 @@
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #263238;
+    margin-top: 2px;
+    gap: 20px;
+    padding: 20px;
+    
+  }
+  
+  .logo-section {
+    color: white;
+    margin-left: 94px;
+    margin-top: 61px;
+  }
+  
+  .logo-container {
+    margin-bottom: 10px;
+    
+  }
+  
+  .sections-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 32px;
+  }
+  
+  .sections {
+    color: white;
+    text-align: left;
+  }
+  
+  .logo-container img {
+    width: 136px;
+    height: 30px;
+  }
+  
+  .details {
+    color: white;
+    margin-top: 34px;
+    margin-bottom: 10px;
+  }
+  
+  .copy-right {
+    font-size: 11px;
+    padding: 2px;
+    margin-bottom: -3px;
+  }
+  h3{
+    font-weight: 100;
+  }
+  
+  .icons {
+    display: flex;
+    margin-top: 40px;
+    margin-left: -24px;
+  }
+  
+  .InstaClass {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #717171;
+    margin: 10px;
+  }
+  
+  .icon {
+    color: white;
+    padding: 3px;
+  }
+  .sections.stay-up-to-date {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-container {
+    position: relative;
+  }
+  
+  input {
+    padding: 10px;
+    padding-right: 40px; 
+    
+    border-radius: 5px;
+    background-color: #717171;
+    text-decoration: none;
+  }
+  
+  .near-me-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color:white;
+  }
+  .input-container>input::placeholder{
+    font-size: 16px;
+    color: white;
+  }
+  @media (max-width: 768px) {
+    .footer-container {
+      grid-template-columns: 1fr;
+    }
+    
+    .sections-grid {
+      grid-template-columns: 1fr;
+    }
+    .near-me-icon{
+        position: relative;
+        right: 35px;
+        top: 9px;
+    }
+
+  }

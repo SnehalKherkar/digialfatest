@@ -1,0 +1,53 @@
+.demoContainer {
+    width: 100%;
+    background-image: url('https://www.lemontreehotels.com/images/hotels/20230624165631464Manali.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.demoContainer h1 {
+    width: 100%;
+    height: 152px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+}
+
+.demoContainer button {
+    width: 178px;
+    height: 52px;
+    border-radius: 4px;
+    padding: 14px 32px 14px 32px;
+    gap: 8px;
+    background-color: #ff645c;
+    border: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .demoContainer {
+        width: 745px;
+        height: 400px;
+        padding: 10px; 
+    }
+
+    .demoContainer h1 {
+        height: auto;
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .demoContainer button {
+        width: 50%;
+        padding: 12px 24px;
+    }
+}
+
